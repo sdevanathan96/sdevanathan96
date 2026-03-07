@@ -39,7 +39,7 @@
 | Project | Stack | Highlights |
 |--------|-------|------------|
 | [**Distributed Key-Value Store**](https://github.com/sdevanathan96/Distributed-Key-Value-Store) | Go · gRPC · Protobuf | Raft consensus, consistent hashing sharding, WAL + LSM Tree, 60% memory reduction via log compaction |
-| [**Layer 7 Load Balancer**](https://github.com/sdevanathan96/load-balancer) | Go · Redis · Docker | Dynamic algorithm switching, idempotent request processing, exponential backoff retries |
+| [**Layer 7 Load Balancer**](https://github.com/sdevanathan96/hA-L7-lb-with-retry) | Go · Redis · Docker | Dynamic algorithm switching, idempotent request processing, exponential backoff retries |
 | [**code-flash**](https://github.com/sdevanathan96/code-flash) | Java · Spring Boot · PostgreSQL | LeetCode spaced-repetition tracker using SM-2 algorithm; Strategy pattern for pluggable SRS engines, Observer pattern for solve events, Flyway migrations |
 | [**Deep RL for Atari**](https://github.com/sdevanathan96/DQN) | Python · PyTorch | DQN + PPO, GPU-accelerated training pipelines, super-human Pong performance |
 
