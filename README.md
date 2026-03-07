@@ -104,5 +104,5 @@
 
 <p align="center">
   <i>💬 Always happy to talk distributed systems, storage engines, or interesting engineering problems.</i><br/>
-  <i>📫 Reach me at <b>devanathan.s@northeastern.edu</b></i>
+  <i>📫 Reach me at <b>devanathan.s@northeastern.edu</b> or <b>sudhanva20@gmail.com</b></i>
 </p>
