@@ -24,13 +24,12 @@
 
 ### 🧭 About Me
 
-- 🎓 **MS Computer Science** @ Northeastern University (GPA: 3.87) — graduating Apr 2026
-- 🏦 **6 years of industry experience** as a Software Engineer II at **BlackRock**, building high-scale financial infrastructure used in SEC regulatory analytics and risk systems
-- 🔧 I love building distributed systems **from scratch** to deeply understand the internals — Raft consensus, LSM trees, WALs, consistent hashing, load balancers
-- 🧠 At BlackRock, I architected pipelines processing **50M+ rows**, designed fault-tolerant microservices with **gRPC/Protobuf**, and built event-driven monitoring systems that cut detection latency by **40%**
-- 📐 Strong foundation in **system design** (HLD + LLD) — I think in terms of trade-offs: consistency vs. availability, throughput vs. latency, coupling vs. flexibility
-- 🌱 Currently exploring: **C++ systems programming**, **reinforcement learning**, and **probabilistic data structures in distributed routing** (Cuckoo filters, Quotient filters in Chord DHTs)
-- 🔍 Actively seeking **SWE / Backend / Infrastructure** roles — Summer / Fall 2026
+- 🎓 MS Computer Science @ Northeastern University (GPA: 3.84), graduated May 2026
+- 🏦 6 years at BlackRock (SWE I to SWE II), building data pipeline infrastructure on the Aladdin platform serving 130+ clients and 250K+ portfolios
+- 🧠 At BR: pipelines processing 100M+ rows nightly, microservices in Java Spring Boot + Kafka + gRPC that cut daily DB connections by 80%, and a Python asyncio monitoring system that improved on-time failure detection by 40%
+- 🔧 Outside work, I build distributed systems from scratch when I want to actually understand them. The KV store project is the latest one.
+- 🌱 Currently: studying for CKA, benchmarking the KV store, picking up async patterns in Python 3.14
+- 🔍 Looking for SWE / Backend / Infrastructure roles, Summer / Fall 2026
 
 ---
 
@@ -38,8 +37,9 @@
 
 | Project | Stack | Highlights |
 |--------|-------|------------|
-| [**Distributed Key-Value Store**](https://github.com/sdevanathan96/Distributed-Key-Value-Store) | Go · gRPC · Protobuf | Raft consensus, consistent hashing sharding, WAL + LSM Tree, 60% memory reduction via log compaction |
-| [**Layer 7 Load Balancer**](https://github.com/sdevanathan96/hA-L7-lb-with-retry) | Go · Redis · Docker | Dynamic algorithm switching, idempotent request processing, exponential backoff retries |
+| [**Distributed Key-Value Store**](https://github.com/sdevanathan96/Distributed-Key-Value-Store) | Go · gRPC · Protobuf | Raft consensus from scratch (no third-party library), consistent hashing with virtual nodes for sharding, WAL + LSM tree storage with bloom filters and multi-level compaction |
+| [**HA Layer 7 Load Balancer**](https://github.com/sdevanathan96/hA-L7-lb-with-retry) | Go · Redis · Docker | Redis Pub/Sub state synchronization across LB instances, 5 routing policies (Round-Robin, Random, Least-Connections, Weighted, IP-Hash), idempotent-aware failover, 6,000-7,500 RPS sustained at <10ms average latency |
+| [**Probabilistic Chord DHT**](https://github.com/sdevanathan96/probabilistic-chord) | C++ · Unix Sockets | Replaced Chord finger tables with Cuckoo and Quotient filter routing; evaluated hop count, correctness, memory, and latency trade-offs across cluster sizes of 64-1024 nodes |
 | [**code-flash**](https://github.com/sdevanathan96/code-flash) | Java · Spring Boot · PostgreSQL | LeetCode spaced-repetition tracker using SM-2 algorithm; Strategy pattern for pluggable SRS engines, Observer pattern for solve events, Flyway migrations |
 | [**Deep RL for Atari**](https://github.com/sdevanathan96/DQN) | Python · PyTorch | DQN + PPO, GPU-accelerated training pipelines, super-human Pong performance |
 
@@ -91,18 +91,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sdevanathan96&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
-
 ---
 
 ### 📚 What I'm Currently Building
 
-- 🔩 **HTTP/1.1 Server in C++** — TCP echo server → full request parsing, routing, and response pipeline
-- ⚡ **API Gateway** with Spring WebFlux + Project Reactor — rate limiting, circuit breaking, distributed tracing
-- 🔬 **Probabilistic Filter Routing in Chord DHTs** — comparing standard finger table routing against Cuckoo filter and Quotient filter approaches across cluster sizes of 64–1024 nodes; evaluating hop count, correctness, memory, and latency trade-offs
-
----
-
-<p align="center">
-  <i>💬 Always happy to talk distributed systems, storage engines, or interesting engineering problems.</i><br/>
-  <i>📫 Reach me at <b>devanathan.s@northeastern.edu</b> or <b>sudhanva20@gmail.com</b></i>
-</p>
+- 🤖 **[asyncio-fleet-telemetry](https://github.com/sdevanathan96/asyncio-fleet-telemetry)**: Python 3.14 telemetry pipeline simulating a warehouse robot fleet.
+- 📊 **Benchmarks for my KV store**: I built the storage layer and Raft consensus months ago but never actually measured anything. Running throughput, latency, and recovery time tests now.
