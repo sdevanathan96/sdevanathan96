@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/Personal%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Open%20to%20Work-2ea44f?style=for-the-badge" />
-  <a href="./Sudhanva_Devanathan_Resume.pdf">
+  <a href="./Sudhanva_Resume.pdf">
     <img src="https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
   </a>
 </p>
