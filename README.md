@@ -96,4 +96,4 @@
 ### 📚 What I'm Currently Building
 
 - 🤖 **[asyncio-fleet-telemetry](https://github.com/sdevanathan96/asyncio-fleet-telemetry)**: Python 3.14 telemetry pipeline simulating a warehouse robot fleet.
-- 📊 **Benchmarks for my KV store**: I built the storage layer and Raft consensus months ago but never actually measured anything. Running throughput, latency, and recovery time tests now.
+- 📊 **Benchmarks for my KV store**: I built the storage layer and Raft consensus months ago but never actually measured anything at a large scale. Running throughput, latency, and recovery time tests now.
