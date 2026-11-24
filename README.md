@@ -77,5 +77,5 @@ Also: [Deep RL for Atari](https://github.com/sdevanathan96/DQN) (DQN + PPO in Py
 
 - 🦀 **[rusty-redis](https://github.com/sdevanathan96/rusty-redis)**: packing small values into compact storage to close the memory gap with Redis (stream entries are 196 B vs Redis's 18 B today)
 - 🤖 **[asyncio-fleet-telemetry](https://github.com/sdevanathan96/asyncio-fleet-telemetry)**: Python 3.14 telemetry pipeline simulating a warehouse robot fleet
-- ☸️ **Certified Kubernetes Administrator (CKA)**: in progress, target [Dec 2026]
-- ☁️ **AWS Solutions Architect Associate**: in progress, target [Nov 2026]
+- ☸️ **Certified Kubernetes Administrator (CKA)**: in progress, target [Feb 2027]
+- ☁️ **AWS Solutions Architect Associate**: in progress, target [Feb 2027]
